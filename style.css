@@ -1,0 +1,21 @@
+/* Style des boutons de navigation active */
+.nav-btn {
+  color: #a1a1aa;
+}
+
+.nav-btn.active {
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.nav-btn:hover:not(.active) {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Style de la notification pop-up (Toast) */
+#gift-toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
